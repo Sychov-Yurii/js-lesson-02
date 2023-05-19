@@ -1,12 +1,35 @@
 // ================= work 1 ================= //
 
-function checkAge(age) {
-    if (age>=20) { // Change this line
-      return "You are an adult";
-    }
+// function checkAge(age) {
+//     if (age>=20) { // Change this line
+//       return "You are an adult";
+//     }
   
-    return "You are a minor";
-  }
+//     return "You are a minor";
+//   }
 
 // ================= work 2 ================= //
+
+
+
+// ================= work 3 ================= //
+
+
+
+// ================= work 4 ================= //
+
+
+
+
+// ================= work 5 ================= //
+
+
+
+
+// ================= work 6 ================= //
+
+
+
+
+// ================= work 7 ================= //
 
