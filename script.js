@@ -115,16 +115,102 @@
 
 // ================= work 12 ================= //
 
+// function makeStringFromArray(array, delimiter) {
+//   let string;
+//   // Change code below this line
 
+// string = array.join(delimiter)
+
+//   // Change code above this line
+//   return string;
+// }
 
 // ================= work 13 ================= //
 
-
-
+// function slugify(title) {
+//     // Change code below this line
+//   let separation = title.split(" ")
+//     let add = separation.join("-")
+//     let result = add.toLowerCase()
+//     return result
+//     // Change code above this line
+//   }
 
 // ================= work 14 ================= //
 
+// const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
 
-
+// // Change code below this line
+// const firstTwoEls = fruits.slice(0,2);
+// const nonExtremeEls = fruits.slice(1,4);
+// const lastThreeEls = fruits.slice(-3); 
 
 // ================= work 15 ================= //
+
+// const oldClients = ['Mango', 'Ajax', 'Poly', 'Kiwi'];
+// const newClients = ['Peach', 'Houston'];
+
+// const allClients = oldClients.concat(newClients); // Change this line
+
+// ================= work 16 ================= //
+
+// function makeArray(firstArray, secondArray, maxLength) {
+//     // Change code below this line
+// let newArray = firstArray.concat(secondArray); 
+//   if (newArray.length > maxLength) {
+//     newArray = newArray.slice(0, maxLength);
+//   }
+
+// return newArray;
+//     // Change code above this line
+//   }
+
+// ================= work 17 ================= //
+
+// const start = 3;
+// const end = 7;
+
+// for (let i = start; i <= end; i += 1) {
+//   console.log(i);
+// }
+
+// ================= work 18 ================= //
+
+// function calculateTotal(number) {
+//     // Change code below this line
+//    let sum = 0;
+//      for (let i = 0; i <= number; i += 1) {
+//        sum = sum +i
+//      } 
+//    return sum;
+   
+//      // Change code above this line
+//    }
+
+// ================= work 19 ================= //
+
+// const fruits = ['apple', 'plum', 'pear', 'orange'];
+
+// for (let i = 0; i < fruits.length; i += 1) { // Change this line
+//   const fruit = fruits[i]; // Change this line
+//   console.log(fruit);
+// }
+
+// ================= work 20 ================= //
+
+// function calculateTotalPrice(order) {
+//     let total = 0;
+//     // Change code below this line
+//   for (let i = 0; i < order.length; i += 1) {
+//     total += order[i]
+//   }
+//     // Change code above this line
+//     return total;
+//     console.log(total)
+//   }
+
+// ================= work 21 ================= //
+
+
+  
+
