@@ -211,22 +211,73 @@
 
 // ================= work 21 ================= //
 
-function findLongestWord(string) {
-  // Change code below this line
-  const word = string.split(" ");
-  let longestWord = ''; 
-  let maxWord = 0;
-  for (let i = 0; i < word.length; i+=1) {
-    if (maxWord < word[i].length) {
-          maxWord = word[i].length;
-      longestWord = word[i]
-    }
-  }
-  return longestWord
+// function findLongestWord(string) {
+//   // Change code below this line
+//   const word = string.split(" ");
+//   let longestWord = ''; 
+//   let maxWord = 0;
+//   for (let i = 0; i < word.length; i+=1) {
+//     if (maxWord < word[i].length) {
+//           maxWord = word[i].length;
+//       longestWord = word[i]
+//     }
+//   }
+//   return longestWord
 
 
-  // Change code above this line
-}
+//   // Change code above this line
+// }
   
 // ================= work 22 ================= //
 
+// function createArrayOfNumbers(min, max) {
+//   const numbers = [];
+//   // Change code below this line
+// for (let i = min; i <= max; i += 1) {
+//   numbers.push(i)
+// }
+//   // Change code above this line
+//   return numbers;
+// }
+
+// ================= work 23 ================= //
+
+// function filterArray(numbers, value) {
+//    // Change code below this line
+// const newArray = [];
+//   for (i = 0; i < numbers.length; i += 1) {
+//     if (numbers[i] > value) {
+//       newArray.push(numbers[i]);
+//     }
+//   }
+
+// return newArray
+//   // Change code above this line
+// }
+
+// ================= work 24 ================= //
+
+// function checkFruit(fruit) {
+//   const fruits = ["apple", "plum", "pear", "orange"];
+
+//   return fruits.includes(fruit); ; // Change this line
+// }
+
+// ================= work 25 ================= //
+
+// function getCommonElements(array1, array2) {
+//   let array3 = []
+
+//   for (let i =0; i < array1.length; i+=1) {
+//     if (array2.includes(array1[i])) {
+//       array3.push(array1[i])
+//     }
+//   }
+//   // Change code below this line
+
+
+// return array3
+//  // Change code above this line
+// }
+
+// ================= work 26 ================= //
