@@ -211,6 +211,22 @@
 
 // ================= work 21 ================= //
 
+function findLongestWord(string) {
+  // Change code below this line
+  const word = string.split(" ");
+  let longestWord = ''; 
+  let maxWord = 0;
+  for (let i = 0; i < word.length; i+=1) {
+    if (maxWord < word[i].length) {
+          maxWord = word[i].length;
+      longestWord = word[i]
+    }
+  }
+  return longestWord
 
+
+  // Change code above this line
+}
   
+// ================= work 22 ================= //
 
