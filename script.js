@@ -281,3 +281,98 @@
 // }
 
 // ================= work 26 ================= //
+
+// function calculateTotalPrice(order) {
+//   let total = 0;
+//   // Change code below this line
+
+
+//   for(const index of order)
+// {
+// total += index;
+// }
+  
+//   // Change code above this line
+//   return total;
+// }
+
+// ================= work 27 ================= //
+
+// function filterArray(numbers, value) {
+//   // Change code below this line
+//   const filteredNumbers = [];
+
+
+//     for (let number of numbers) {
+//     if (number > value) {
+//       filteredNumbers.push(number);}
+//   }
+
+//   return filteredNumbers;
+//   // Change code above this line
+// }
+
+// ================= work 28 ================= //
+
+// Change code below this line
+// const a = 3 % 3;
+// const b = 4 % 3;
+// const c = 11 % 4;
+// const d = 12 % 7;
+// const e = 8 % 3;
+
+// ================= work 29 ================= //
+
+// function getEvenNumbers(start, end) {
+//   let evenNumber = [];
+//   for (let i = start; i <= end; i+=1) {
+//     if (i % 2 === 0) {
+//       evenNumber.push(i);
+//     }
+//   }   return evenNumber;
+// } 
+
+// ================= work 30 ================= //
+
+// const start = 6;
+// const end = 27;
+// let number;
+
+// for (let i = start; i < end; i += 1) {
+//   if (i % 5 === 0) {
+//     number = i;
+//     break;
+//   }
+  
+// }
+
+// ================= work 31 ================= //
+
+// function findNumber(start, end, divisor) {
+//   // Change code below this line
+//   let number;
+
+//   for (let i = start; i < end; i += 1) {
+//     if (i % divisor === 0) {
+//       number = i;
+      
+//       return number
+//     }
+//   }
+
+  
+//   // Change code above this line
+// }
+
+// ================= work 32 ================= //
+
+// function includes(array, value) {
+//   // Change code below this line
+// for (let i = 0; i < array.length; i +=1) {
+//   if (array[i] === value) {
+//     return true;
+//   }
+// } return false
+//   // Change code above this line
+// }
+
